@@ -1,0 +1,46 @@
+20:39:13.486 [main] INFO  testCase.TC_001B_ValidLoginDDT - ***** Starting loginDDT test at TC_001B_ValidLoginDDT *****
+20:39:13.487 [main] INFO  testCase.TC_001B_ValidLoginDDT - ----- Entering correct credential to login from the config file... -----
+20:39:13.809 [main] INFO  testCase.TC_001B_ValidLoginDDT - ----- Heading to Main Page... -----
+20:39:13.809 [main] INFO  testCase.TC_001B_ValidLoginDDT - ----- Verifying Main Page title is displayed...
+20:39:13.833 [main] INFO  testCase.TC_001B_ValidLoginDDT - ***** SUCCESS !!! *****
+20:39:17.099 [main] INFO  testCase.TC_001B_ValidLoginDDT - ***** Starting loginDDT test at TC_001B_ValidLoginDDT *****
+20:39:17.099 [main] INFO  testCase.TC_001B_ValidLoginDDT - ----- Entering correct credential to login from the config file... -----
+20:39:17.427 [main] INFO  testCase.TC_001B_ValidLoginDDT - ----- Heading to Main Page... -----
+20:39:17.427 [main] INFO  testCase.TC_001B_ValidLoginDDT - ----- Verifying Main Page title is displayed...
+20:39:17.450 [main] INFO  testCase.TC_001B_ValidLoginDDT - ***** SUCCESS !!! *****
+20:39:20.535 [main] INFO  testCase.TC_001B_ValidLoginDDT - ***** Starting loginDDT test at TC_001B_ValidLoginDDT *****
+20:39:20.536 [main] INFO  testCase.TC_001B_ValidLoginDDT - ----- Entering correct credential to login from the config file... -----
+20:39:20.863 [main] INFO  testCase.TC_001B_ValidLoginDDT - ----- Heading to Main Page... -----
+20:39:20.863 [main] INFO  testCase.TC_001B_ValidLoginDDT - ----- Verifying Main Page title is displayed...
+20:39:20.888 [main] INFO  testCase.TC_001B_ValidLoginDDT - ***** SUCCESS !!! *****
+20:39:23.831 [main] INFO  testCase.TC_001B_ValidLoginDDT - ***** Starting loginDDT test at TC_001B_ValidLoginDDT *****
+20:39:23.832 [main] INFO  testCase.TC_001B_ValidLoginDDT - ----- Entering correct credential to login from the config file... -----
+20:39:24.152 [main] INFO  testCase.TC_001B_ValidLoginDDT - ----- Trying to login with incorrect credentials
+20:39:24.152 [main] INFO  testCase.TC_001B_ValidLoginDDT - ----- Verifying the error message is displayed -----
+20:39:24.180 [main] INFO  testCase.TC_001B_ValidLoginDDT - ***** SUCCESS !!! *****
+20:39:27.159 [main] INFO  testCase.TC_001B_ValidLoginDDT - ***** Starting loginDDT test at TC_001B_ValidLoginDDT *****
+20:39:27.159 [main] INFO  testCase.TC_001B_ValidLoginDDT - ----- Entering correct credential to login from the config file... -----
+20:39:27.485 [main] INFO  testCase.TC_001B_ValidLoginDDT - ----- Heading to Main Page... -----
+20:39:27.485 [main] INFO  testCase.TC_001B_ValidLoginDDT - ----- Verifying Main Page title is displayed...
+20:39:27.506 [main] INFO  testCase.TC_001B_ValidLoginDDT - ***** SUCCESS !!! *****
+20:39:30.604 [main] INFO  testCase.TC_001B_ValidLoginDDT - ***** Starting loginDDT test at TC_001B_ValidLoginDDT *****
+20:39:30.604 [main] INFO  testCase.TC_001B_ValidLoginDDT - ----- Entering correct credential to login from the config file... -----
+20:39:30.956 [main] INFO  testCase.TC_001B_ValidLoginDDT - ----- Heading to Main Page... -----
+20:39:30.957 [main] INFO  testCase.TC_001B_ValidLoginDDT - ----- Verifying Main Page title is displayed...
+20:39:30.980 [main] INFO  testCase.TC_001B_ValidLoginDDT - ***** SUCCESS !!! *****
+20:39:34.039 [main] INFO  testCase.TC_001B_ValidLoginDDT - ***** Starting loginDDT test at TC_001B_ValidLoginDDT *****
+20:39:34.039 [main] INFO  testCase.TC_001B_ValidLoginDDT - ----- Entering correct credential to login from the config file... -----
+20:39:34.364 [main] INFO  testCase.TC_001B_ValidLoginDDT - ----- Heading to Main Page... -----
+20:39:34.365 [main] INFO  testCase.TC_001B_ValidLoginDDT - ----- Verifying Main Page title is displayed...
+20:39:34.389 [main] INFO  testCase.TC_001B_ValidLoginDDT - ***** SUCCESS !!! *****
+20:39:37.459 [main] INFO  testCase.TC_001B_ValidLoginDDT - ***** Starting loginDDT test at TC_001B_ValidLoginDDT *****
+20:39:37.460 [main] INFO  testCase.TC_001B_ValidLoginDDT - ----- Entering correct credential to login from the config file... -----
+20:39:37.795 [main] INFO  testCase.TC_001B_ValidLoginDDT - ----- Heading to Main Page... -----
+20:39:37.796 [main] INFO  testCase.TC_001B_ValidLoginDDT - ----- Verifying Main Page title is displayed...
+20:39:37.821 [main] INFO  testCase.TC_001B_ValidLoginDDT - ***** SUCCESS !!! *****
+20:39:40.857 [main] INFO  testCase.TC_001B_ValidLoginDDT - ***** Starting loginDDT test at TC_001B_ValidLoginDDT *****
+20:39:40.857 [main] INFO  testCase.TC_001B_ValidLoginDDT - ----- Entering correct credential to login from the config file... -----
+20:39:41.193 [main] INFO  testCase.TC_001B_ValidLoginDDT - ----- Trying to login with incorrect credentials
+20:39:41.193 [main] INFO  testCase.TC_001B_ValidLoginDDT - ----- Verifying the error message is displayed -----
+20:39:41.220 [main] INFO  testCase.TC_001B_ValidLoginDDT - ***** SUCCESS !!! *****
+20:39:44.124 [main] INFO  testCase.TC_001B_ValidLoginDDT - ***** Starting loginDDT test at TC_001B_ValidLoginDDT *****

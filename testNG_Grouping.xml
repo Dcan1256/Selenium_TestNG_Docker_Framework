@@ -1,0 +1,39 @@
+<suite name="Suite">
+
+    <!--
+        Your TestNG XML suite with Grouping Feature
+        *Included Groups
+        *Excluded Groups
+        *Browser, OS
+                *TestCase 1
+                *TestCase 2
+                .
+                .
+                .
+    -->
+
+    <listeners>
+        <listener class-name="utilities.ExtentReportManager"/>
+    </listeners>
+
+    <test thread-count="5" name="Test">
+        <parameter name="os" value="Windows"/>
+        <parameter name="browser" value="chrome"/>
+
+        <groups>
+            <run>
+                <include name="Master"/>
+                <include name="Regression"/>
+                <include name="Sanity"/>
+                <exclude name="Dummy"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="testCase.TC_001_ValidLogin"/>
+            <class name="testCase.TC_002_Sorting"/>
+            <class name="testCase.TC_003_AddRemoveAll"/>
+            <class name="testCase.TC_004_Checkout"/>
+        </classes>
+    </test><!--  Test  -->
+</suite><!--  Suite  -->

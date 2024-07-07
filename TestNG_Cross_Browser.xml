@@ -1,0 +1,71 @@
+<suite name="Suite" thread-count="5">
+
+    <!--
+        Your Cross Browser TestNG XML suite
+            *Browser 1
+                *TestCase 1
+                *TestCase 2
+                .
+                .
+                .
+
+
+            *Browser 2
+                *TestCase 1
+                *TestCase 2
+                .
+                .
+                .
+
+            *Browser 3
+                *TestCase 1
+                *TestCase 2
+                .
+                .
+                .
+
+            .
+            .
+            .
+    -->
+    <listeners>
+        <listener class-name="utilities.ExtentReportManager"/>
+    </listeners>
+
+
+    <test thread-count="5" name="Chrome_Test"><!--  Chrome_Test  -->
+        <parameter name="os" value="Windows"/>
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="testCase.TC_001_ValidLogin"/>
+            <class name="testCase.TC_002_Sorting"/>
+            <class name="testCase.TC_003_AddRemoveAll"/>
+            <class name="testCase.TC_004_Checkout"/>
+        </classes>
+    </test><!--  Chrome_Test  -->
+
+
+    <test thread-count="5" name="Firefox_Test"><!--  Firefox_Test  -->
+        <parameter name="os" value="Windows"/>
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="testCase.TC_001_ValidLogin"/>
+            <class name="testCase.TC_002_Sorting"/>
+            <class name="testCase.TC_003_AddRemoveAll"/>
+            <class name="testCase.TC_004_Checkout"/>
+        </classes>
+    </test><!--  Firefox_Test  -->
+
+
+    <test thread-count="5" name="Edge_Test"><!--  Edge_Test  -->
+        <parameter name="os" value="Windows"/>
+        <parameter name="browser" value="edge"/>
+        <classes>
+            <class name="testCase.TC_001_ValidLogin"/>
+            <class name="testCase.TC_002_Sorting"/>
+            <class name="testCase.TC_003_AddRemoveAll"/>
+            <class name="testCase.TC_004_Checkout"/>
+        </classes>
+    </test><!--  Edge_Test  -->
+</suite>
+        <!--  Suite  -->

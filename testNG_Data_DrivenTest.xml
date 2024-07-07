@@ -1,0 +1,25 @@
+<suite name="Suite">
+
+
+    <!--
+        Your Base DDT(Data Driver Test) TestNG XML suite
+        *Browser
+                *TestCase 1
+                *TestCase 2
+                .
+                .
+                .
+    -->
+
+    <listeners>
+        <listener class-name="utilities.ExtentReportManager"/>
+    </listeners>
+
+    <test thread-count="5" name="Test">
+        <parameter name="os" value="Windows"/>
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="testCase.TC_003_LoginDDT"/>
+        </classes>
+    </test><!--  Test  -->
+</suite><!--  Suite  -->

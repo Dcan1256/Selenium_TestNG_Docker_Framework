@@ -1,0 +1,27 @@
+<suite name="Suite">
+
+    <!--
+        Your Base TestNG XML suite
+        *Browser
+                *TestCase 1
+                *TestCase 2
+                .
+                .
+                .
+    -->
+    <listeners>
+        <listener class-name="utilities.ExtentReportManager"/>
+    </listeners>
+
+    <test thread-count="5" name="Test">
+        <parameter name="os" value="Linux"/>
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="testCase.TC_001_ValidLogin"/>
+            <class name="testCase.TC_002_Sorting"/>
+            <class name="testCase.TC_003_AddRemoveAll"/>
+            <class name="testCase.TC_004_Checkout"/>
+            <class name="testCase.TC_001B_ValidLoginDDT"/>
+        </classes>
+    </test><!--  Test  -->
+</suite><!--  Suite  -->
